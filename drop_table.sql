@@ -1,0 +1,15 @@
+DROP TABLE Participa;
+DROP TABLE Palestrante;
+DROP TABLE Ouvinte;
+DROP TABLE Ministra;
+DROP TABLE Acesso_VIP;
+DROP TABLE Compra;
+DROP TABLE Cupom;
+DROP TABLE Estande;
+DROP TABLE Produto;
+DROP TABLE Reserva;
+DROP TABLE Organizador;
+DROP TABLE LocalEvento;
+DROP TABLE Atividade;
+DROP TABLE Participante;
+DROP TABLE Endereco;
