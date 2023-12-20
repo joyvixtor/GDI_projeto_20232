@@ -17,7 +17,7 @@ INSERT INTO Endereco VALUES ('60110-250', 'Ceará', 'Fortaleza', 'Centro', 'Rua 
 INSERT INTO Endereco VALUES ('57036-100', 'Alagoas', 'Maceió', 'Jatiúca', 'Rua Deoclécio Barreto');
 INSERT INTO Endereco VALUES ('49015-190', 'Sergipe', 'Aracaju', 'Centro', 'Rua Santa Luzia');
 INSERT INTO Endereco VALUES ('41760-110', 'Bahia', 'Salvador', 'Costa Azul', 'Rua Prof. Cassilandro Barbuda');
-INSERT INTO Endereco VALUES ('44255-000', 'Bahia', 'Irará', 'Vila', 'Rua Alberto Norgueira');
+INSERT INTO Endereco VALUES ('44255-000', 'Bahia', 'Irará', 'Vila', 'Rua Alberto Nogueira');
 INSERT INTO Endereco VALUES ('65071-390', 'Maranhão', 'São Luís', 'Calhau', 'Av. dos Sambaquis');
 INSERT INTO Endereco VALUES ('64014-075', 'Piauí', 'Teresina', 'Piçarra', 'Rua Jarbas Martins');
 INSERT INTO Endereco VALUES ('51021-010','Pernambuco','Recife','Boa Viagem','Av. Boa Viagem');
