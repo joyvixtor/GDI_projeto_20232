@@ -18,7 +18,6 @@ BEGIN
    endereco_rec.bairro := 'Várzea';
    endereco_rec.rua := 'Rua Emetério Maciel';
 
-
    SELECT *
    INTO participante_rec
    FROM Participante
