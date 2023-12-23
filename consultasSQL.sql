@@ -31,7 +31,7 @@ SELECT p.nome , COUNT(*)
 FROM Participante p
 Left Outer JOIN Compra c
 ON p.cpf = c.cpf_participante
-GROUP BY p.nome
+GROUP BY p.nome;
 
 
 --ALTER TABLE
@@ -56,7 +56,7 @@ INNER JOIN
 INNER JOIN
     Ministra ON Palestrante.cpf_participante = Ministra.cpf_palestrante
 INNER JOIN
-    Atividade ON Ministra.id_atividade = Atividade.ID_ATVD
+    Atividade ON Ministra.id_atividade = Atividade.ID_ATVD;
 
 
 --INER JOIN e IN
@@ -75,7 +75,7 @@ INNER JOIN
 INNER JOIN
     LocalEvento ON Reserva.geolocalizacao_local = LocalEvento.geolocalizacao
 WHERE
-    Reserva.cpf_organizador IN ('23322076431')
+    Reserva.cpf_organizador IN ('23322076431');
 
 
 -- BETWEEN
@@ -86,7 +86,7 @@ SELECT
 FROM
     Produto
 Where 
-    Preco BETWEEN 20 AND 50
+    Preco BETWEEN 20 AND 50;
 
 
 -- LIKE
@@ -101,7 +101,7 @@ INNER JOIN
 INNER JOIN
     Estande ON Compra.id_estande = Estande.id_estande
 WHERE
-    Estande.nome LIKE '%Quadrinhos'
+    Estande.nome LIKE '%Quadrinhos';
 
 
 --IS NULL
